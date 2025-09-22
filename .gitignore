@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Logs
 logs
 *.log
@@ -137,3 +138,14 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+=======
+# node / build / IDE
+node_modules/
+dist/
+.vscode/
+
+# local secrets & Playwright artefacts
+.env
+.env.local
+playwright-report/
+>>>>>>> 8c9c5e5 (Playwright Sample Files)

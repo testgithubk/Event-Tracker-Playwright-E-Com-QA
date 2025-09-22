@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "CommonJS",
+    "strict": true,
+    "esModuleInterop": true,
+    "allowJs": true,
+    "outDir": "dist",
+    "moduleResolution": "node",
+    "types": ["node", "playwright"],
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "paths": {
+      "@tests/*": ["tests/*"],
+      "@utils/*": ["utils/*"],
+      "@config": ["config.ts"]
+    },
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["./tests", "./utils", "./config.ts"],
+  "exclude": ["node_modules", "dist"]
+}
